@@ -44,5 +44,8 @@ Thumbs.db
 # Test coverage
 coverage
 
+# Supabase
+supabase/.temp
+
 # Misc
 *.tsbuildinfo
