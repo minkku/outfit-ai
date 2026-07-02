@@ -1,4 +1,5 @@
-export type ClothingCategory = 'top' | 'bottom' | 'outer' | 'shoes' | 'accessory';
+export const CLOTHING_CATEGORIES = ['top', 'bottom', 'outer', 'shoes', 'accessory'] as const;
+export type ClothingCategory = typeof CLOTHING_CATEGORIES[number];
 
 export type Season = 'spring' | 'summer' | 'fall' | 'winter';
 
